@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Friburgo Trekking</title>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light p-3 ">
+        <a class="navbar-brand" href="#">Friburgo Trekking</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto pr-5">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="altitudes.html">Altitude das montanhas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="montanhas.html">Montanhas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#lembretes">Lembretes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- foto principal -->
+    <section id="main">
+        <div class="card bg-dark text-white border-0 rounded-0">
+            <!-- <img src="http://3.bp.blogspot.com/-Aads2n7QAJo/T4wpP2FXRLI/AAAAAAAAAP4/AQBcFDJXWWo/s1600/DSC_0725+foto+do+Cao.JPG" class="card-img" alt="..."> -->
+            <img src="./assets/images/fundo.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay text-center align-middle mt-5">
+                <h1 class="card-title ">Friburgo Trekking</h1>
+                <h6 class="card-text">Informações e dicas sobre trilhas, montanhas e escaladas.</h6>
+                <p class="card-text">Autor: Fillipe Assis</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tabela com as altitudes -->
+    <section id='maiores-montanhas' class='mt-5'>
+        <div class="container">
+            <h4 class='text-center'>Altitude das Principais Montanhas de Nova Friburgo</h4>
+            <p class='font-italic text-muted mb-5'>A marcação da altitude das montanhas foram realizadas com o GPS
+                modelo
+                Garmin 60 CSX, salvo o Caledônia,
+                Pico Maior e Pico Médio onde foram utilizados marcações do IBGE no ano de 2014.</p>
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Posição</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Altitude</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Pico Maior</td>
+                        <td> 2.366 metros</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Pico Médio</td>
+                        <td> 2.361 metros</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Pico Menor</td>
+                        <td> 2.310 metros</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Caledônia</td>
+                        <td> 2.257 metros</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Capacete</td>
+                        <td> 2.197 metros</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>Ronca Pedra / Toledo</td>
+                        <td> 2.113 metros</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>Cabeça de Dragão</td>
+                        <td> 2.082 metros </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td>Pico dos Três Municípios</td>
+                        <td> 2.081 metros</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9</th>
+                        <td>Caixa de Fósforos de Teresópolis</td>
+                        <td> 1.813 metros</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">10</th>
+                        <td>Boa Vista</td>
+                        <td> 1.782 metros</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="text-center mb-5">
+                <a href="altitudes.html#tabela" class="btn btn-outline-success btn-lg">Ver mais</a>
+            </div>
+            <br>
+            <br>
+
+
+        </div>
+
+    </section>
+
+    <!-- Não faça fogueira -->
+    <section class='container my-5 text-center fogueira'>
+        <div class="row">
+            <div class="col-md">
+                <img src="https://3.bp.blogspot.com/-hXmIQj4iml4/Ww7DsSr5Z6I/AAAAAAAADz0/vUj9H8Rym5QFIcRoaEQhm4PxroA_WqgDACLcBGAs/s640/DGJKenqXoAI1Pq4.jpg"
+                    class="card-img-top" alt="NÃO FAÇA FOGUEIRAS - Não deixe nosso verde virar cinza">
+            </div>
+            <div class="col-md mt-5 my-md-auto">
+                <h3 class="firebrick">NÃO FAÇA FOGUEIRAS!!</h3>
+                <p class="">A vegetação de altitude é muito frágil, e uma fogueira pode causar
+                    <strong class='firebrick'>grandes incêndios!</strong></p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                <hr>
+                <h6 class="text-success p-3 border border-success">
+                    Leve todo seu lixo de volta. Não os deixe nos acessos as montanhas!
+                </h6>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ideologia -->
+    <section class="text-white p-3 section-ideologia">
+        <h3 class='my-3 text-center'>IDEOLOGIA</h3>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md my-md-auto">
+                    <h4 class="my-3">A intenção do blog Friburgo Trekking é orientar os montanhistas sobre as
+                        belezas
+                        naturais que
+                        temos aqui na
+                        cidade de Nova Friburgo
+                    </h4>
+                    <p>Antigamente não existia nada relatado sobre os acessos a essas
+                        montanhas. Não tinha a
+                        mensuração
+                        (graduação)
+                        das trilhas, desníveis, mapas, tempo de duração, poucas fotos e até os nomes das
+                        montanhas
+                        não
+                        se conhecia.</p>
+                    <p class="my-2">Construímos esse blog porque amamos montanhismo e pelo potencial que Nova Friburgo
+                        tem.</p>
+                </div>
+
+                <div class="col my-md-auto p-4">
+                    <h5 class="my-2">
+                        Construímos esse blog porque amamos montanhismo e pelo potencial que Nova Friburgo tem.</h5>
+                    <p>
+                        Sabemos que nossa vegetação é a mata atlântica e umas das suas características são árvores de
+                        médio e grande
+                        porte, formando uma floresta fechada e densa.
+                    </p>
+                    <hr>
+
+                    <p>
+                        A trilha é um caminho que passa por essa vegetação, estando sujeito a modificações naturais e/ou
+                        artificiais. A trilha pode ser modificada por uma barreira; o mato pode crescer fechando o
+                        caminho em
+                        trilhas pouco visitadas e até mesmo o homem pode fazer uma obra destruindo uma parte de uma
+                        trilha.
+                        A orientação fica prejudicada, podendo o montanhista ficar confuso (não sabendo qual direção
+                        tomar) e ser
+                        perder dentro da floresta.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recomendacao -->
+    <section class=" p-3 sec-recomendacao">
+        <h3 class='text-center mt-5' id='lembretes'>Lembretes</h3>
+        <div class="row mt-5 p-2">
+            <div class="col-md">
+                <h5 class="text-center p-3 align-text-bottom mb-5">
+                    Todo esporte tem seus riscos. Se machucar e/ou se perder em lugares de difícil acesso fica
+                    complicado
+                    conseguir equipes capacitadas para o resgate.</h5>
+
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="./assets/images/Up_to_date_.svg" alt="Imagem de recomendações"
+                            class="img-fluid img-recomendacao">
+                    </div>
+                    <div class="col-md-7">
+                        <ul class="p-5 rounded">
+                            <h5>Recomendações</h5>
+                            <li>Procure informações em livros, internet ou em alguém que se já fez um determinada
+                                trilha.
+                            </li>
+                            <li>Prepare-se física e mentalmente para o que deseja fazer.</li>
+                            <li>Se capacite. Existem cursos sobre montanhismo, rapel, escalada, resgate e primeiros
+                                socorros.</li>
+                            <li>Informe-se sobre o centro excursionista de sua cidade.</li>
+                            <li>Procure não se aventurar sozinho. Sempre avise alguém de qual será seu roteiro de
+                                aventura.
+                            </li>
+                            <li>Contrate um guia e/ou vá com alguém que já conhece uma determinada trilha.</li>
+                            <br>
+                            <p><i>Uma trilha classificada como Leve Superior pode ir de um simples "passeio no parque"
+                                    até uma "grande enrascada".</i></p>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white p-3 text-center container-fluid" id='contato'>
+        <div class="row mb-3 mt-3">
+            <div class="col">
+                <h5>Contato</h5>
+                <a href="mailto:friburgotrekking@gmail.com" class="text-white">friburgotrekking@gmail.com</a>
+            </div>
+        </div>
+        <p class='text-center'>Copyright &copy; 2020 | Friburgo Trekking</p>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

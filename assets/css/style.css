@@ -1,0 +1,73 @@
+/* 
+
+
+cores
+#1D2126
+#4D5659
+#50593C
+#A2A686
+#F2E9CE
+
+*/
+
+
+/* Brilho da imagem de fundo */
+#main img{
+    filter: brightness(.5);
+}
+
+#main > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Não faca fogueira */
+.firebrick{
+    color: firebrick;
+}
+
+.section-ideologia h3{ 
+    color:#A2A686;
+}
+.section-ideologia{
+   background-color: #4D5659;
+}
+
+.img-recomendacao{
+    height: 70%;
+}
+
+
+.sec-recomendacao ul{
+    background-color: #8BC34A;
+}
+
+.fogueira{
+    background-color: #000;
+    color: #fff;
+}
+
+
+footer{
+    background-color: #1D2126;
+}
+
+footer ul {
+    list-style: none;
+}
+
+
+nav {
+    background-color: #A2A686;
+}
+
+.nav-link{
+    color: red;
+}
+
+.gambi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
